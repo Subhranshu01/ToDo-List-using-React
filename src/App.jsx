@@ -40,7 +40,7 @@ const deletehandler=(index)=>{
       <h2 className="text-3xl font-bold text-center bg-blue-500 text-white p-5 rounded-md shadow-md ">
         My Todo List
       </h2>
-      <form className="bg-gray-100 flex  gap-4 p-6 rounded-md shadow-md mx-auto w-1/2 mt-6 flex-col" onSubmit={submitHandler}>
+      <form className="bg-gray-100 flex  gap-4 p-6 rounded-md shadow-md mx-auto lg:w-1/2 mt-6 flex-col sm:w-4/5" onSubmit={submitHandler}>
         <input
           type="text"
           placeholder="Enter your task title"

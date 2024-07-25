@@ -74,7 +74,7 @@ const completehander=(index)=>{
         />
       </form>
          <hr className="h-5 bg-slate-200"></hr>
-      <div className="mx-auto lg:w-1/2 mt-6sm:w-4/5">
+      <div className="mx-auto lg:w-1/2 mt-6 sm:w-4/5">
         {renderTask}
       </div>
     
